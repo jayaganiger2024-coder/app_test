@@ -4,6 +4,7 @@ name=st.text_input("Enter your name")
 if st.button("Submit"):
   st.write(f"Hello, {name}")
 age=st.number_input("Enter your age")
-if (age>=18):
-  st.write("You are eligible to vote")
+if st.button("Submit"):
+  if (age>=18):
+    st.write("You are eligible to vote")
   
